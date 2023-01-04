@@ -1,0 +1,27 @@
+.background-grey{
+    background-color: #F5F5F5;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.background-grey a{
+    text-decoration: none;
+}
+
+.file-image{
+    max-width: 5rem;
+}
+
+.button-file{
+    background-color: #9E0808;
+    padding: 0.5rem 0.5rem;
+    max-width: 15rem;
+    border-radius: 1.9rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.button-file p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}

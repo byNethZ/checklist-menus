@@ -1,0 +1,16 @@
+.not-found{
+    text-align: center;
+    height: 25rem;
+    width: 95%;
+    max-width: 40rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found img {
+    max-width: 10rem;
+    margin: auto;
+}

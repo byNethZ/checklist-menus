@@ -1,0 +1,86 @@
+.modal{
+    width: 95%;
+    max-width: 18rem;
+    height: 85%;
+    max-height: 35rem;
+    margin: auto;
+    position: absolute;
+    border-radius: 1rem;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .modal{
+        max-width: 30rem;
+        height: 35rem;
+        
+    }
+}
+
+.approver-div{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.approver-div input, .approver-div textarea{
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    border: 1px solid #0036C8;
+    resize: none;
+    color: #0036C8;
+}
+
+.approver-div input:focus-visible, .approver-div textarea:focus-visible{
+    border: 1px solid #0036C8;
+    box-shadow: #0036C8 0px 1px 4px;
+    outline: #0036C8;
+}
+
+.approver-div textarea{
+    height: 10rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #0036C8;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #0036C8;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #0036C8;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #0036C8;
+  }
+
+.modal p{
+    text-align: justify;
+    font-size: .8rem;
+
+}
+
+@media (min-width: 768) {
+    .modal p{
+        font-size: 1rem;
+    }
+}
+
+.modal .information {
+    max-height: 15rem;
+    overflow-y: scroll;
+}

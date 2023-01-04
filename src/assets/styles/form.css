@@ -1,0 +1,36 @@
+.information{
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.information span{
+    font-weight: bold;
+}
+
+.buttons{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.buttons button{
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    transition: .4s;
+}
+
+.close{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    text-align: right;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.form-container{
+    padding: 0 1.875rem 3rem 1.875rem;
+}

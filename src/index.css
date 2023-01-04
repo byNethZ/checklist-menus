@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text-center{
+  text-align: center;
+}
+
+.span-bliones{
+  font-weight: bold;
+  color: #0034c8;
+}
+
+.span-warning{
+  font-weight: bold;
+  color: #9E0808;
+}
+
+.success{
+  background-color: #0036C8;
+  color: #fff;
+  border: 1px solid #0036C8;
+}
+
+
+.success:hover{
+  background-color: #012483;
+  cursor: pointer;
+}
+
+.danger{
+  background-color: #9E0808;
+}
+
+.rejected{
+  border: 1px solid #5B87FF;
+  color: #5B87FF;
+  background-color: transparent;
+}
+
+.rejected:hover{
+  border: 1px solid #5781f3;
+  color: #5781f3;
+  cursor: pointer;
+}
+
+.button{
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  transition: .4s;
+  width: 100%;
+}
+
+.button-container{
+  width: 100%;
+  max-width: 15rem;
+  margin: auto;
+  text-align: center;
+}
+
+.button-container .button{
+  margin: 0;
+}
+
+.information p{
+  text-align: justify;
+}
+
+.button-information{
+  width: 100%;
+  max-width: 10rem;
+  height: fit-content;
+  margin: .5rem auto 1rem auto;
+}
+
+.button-information button{
+  text-align: center;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 1.5rem;
+}
+
+.loading{
+  max-width: 3rem;
+}

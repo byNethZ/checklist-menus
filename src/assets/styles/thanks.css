@@ -1,0 +1,9 @@
+.thanks{
+    text-align: center;
+    width: 90%;
+    max-width: 35rem;
+    margin: auto;
+}
+.thanks img{
+    width: 100%;
+}
