@@ -12,7 +12,7 @@ import { Utils } from "../utils/Utils";
 const Form = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [accepted, setAccepted] = useState(false);
-  const [typeProject, setTypeProject] = useState<string>('menú');
+  const [typeProject, setTypeProject] = useState<string>('Menú');
   const [link, setLink] = useState<LinkModel>({
     id: 1,
     approver: '',

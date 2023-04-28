@@ -15,7 +15,7 @@ const Content = ({ status, id, type }: Par) => {
   const api = new Api();
   const [loading, setLoading] = useState(false);
   const [distance, setDistance] = useState<number>(150);
-  const [typeProject, setTypeProject] = useState<string>('menú');
+  const [typeProject, setTypeProject] = useState<string>('Menú');
   const [link, setLink] = useState<LinkModel>({
     id: 1,
     approver: "",
